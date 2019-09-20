@@ -18,7 +18,7 @@ Import Google Fonts
 
 body {
 	margin: 0px;
-	font-family: 'Baloo', cursive;
+	font-family: 'Merienda One', Helvetica, sans-serif;
 
 }
 
@@ -76,6 +76,10 @@ section {
 .col-0-gutter {
 	padding-left: 0;
 	padding-right: 0;
+}
+
+.col-md-6 {
+    padding-top: 22px;
 }
 
 /*--------------------
@@ -293,7 +297,6 @@ figure {
     margin: 0 2px 1px 0;
     background: #726FB9;
     text-align: center;
-    //cursor: pointer;	
 }
 
 figcaption {
@@ -320,12 +323,12 @@ figcaption {
 }
 
 figure.effect-bubba {
-	background: #000;
+	background: #8FB9A8;
 	margin-bottom: 1px;
 }
 
 figure.effect-bubba img {
-	opacity: 0.8;
+	opacity: 1;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
@@ -375,7 +378,7 @@ figure.effect-bubba h2 {
 
 figure.effect-bubba p {
     color: #fff;
-    font-size: 13px;
+    font-size: 23px;
     font-weight: 500;
 	padding: 20px 2.5em;
 	opacity: 0;
