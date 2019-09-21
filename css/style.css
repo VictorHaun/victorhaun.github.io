@@ -69,8 +69,8 @@ section {
 --------------------*/
 
 .row-0-gutter {
-    margin-left: -13px;
-    margin-right: -13px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .col-0-gutter {
@@ -172,7 +172,9 @@ font-family: 'Baloo', cursive;
 /*--------------------
 4. Sections
 --------------------*/
-
+ section#portfolio {
+	margin-top:100px;
+}
 
 .section-title {
 	padding-bottom: 30px;
@@ -188,11 +190,14 @@ font-family: 'Baloo', cursive;
 	font-weight: 300;
 	line-height: 33px;
 	margin: 25px 100px 30px 100px;
+    color: #765d69;
 }
 
 .mz-module .section-title {
     padding: 40px 0;
 }
+
+
 
 /*--------------------
 4.1. About
@@ -294,7 +299,7 @@ font-weight: 700;
 figure {
 	position: relative;
     overflow: hidden;
-    margin: 0 2px 1px 0;
+    margin: 0 5px 1px 0;
     background: #726FB9;
     text-align: center;
 }
